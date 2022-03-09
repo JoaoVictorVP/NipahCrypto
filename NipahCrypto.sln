@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32203.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NipahCrypto.SecretGrid", "NipahCrypto.SecretGrid\NipahCrypto.SecretGrid.csproj", "{C7F77463-C169-4A02-A572-527A41EA7CE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NipahCrypto.Testing", "NipahCrypto.Testing\NipahCrypto.Testing.csproj", "{A7B93AE5-7B46-4963-A352-CBDFB0862180}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NipahCrypto.Core", "NipahCrypto.Core\NipahCrypto.Core.csproj", "{EA917D11-222F-45E9-9CF5-8DF61D127259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPHINCS+", "SPHINCS+\SPHINCS+.csproj", "{68504898-6A54-4606-B1F3-64B6ABB3BB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F77463-C169-4A02-A572-527A41EA7CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F77463-C169-4A02-A572-527A41EA7CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F77463-C169-4A02-A572-527A41EA7CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F77463-C169-4A02-A572-527A41EA7CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B93AE5-7B46-4963-A352-CBDFB0862180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B93AE5-7B46-4963-A352-CBDFB0862180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B93AE5-7B46-4963-A352-CBDFB0862180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B93AE5-7B46-4963-A352-CBDFB0862180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA917D11-222F-45E9-9CF5-8DF61D127259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA917D11-222F-45E9-9CF5-8DF61D127259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA917D11-222F-45E9-9CF5-8DF61D127259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA917D11-222F-45E9-9CF5-8DF61D127259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68504898-6A54-4606-B1F3-64B6ABB3BB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68504898-6A54-4606-B1F3-64B6ABB3BB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68504898-6A54-4606-B1F3-64B6ABB3BB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68504898-6A54-4606-B1F3-64B6ABB3BB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D473132E-97D6-4000-9639-A0174FCEB203}
+	EndGlobalSection
+EndGlobal
