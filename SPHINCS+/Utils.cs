@@ -2,11 +2,12 @@
 
 public static unsafe class Utils
 {
-    public static void UllToBytes(ulong* @out, uint outlen, ulong @in)
+    public static void UllToBytes(void* @out, uint outlen, ulong @in)
     {
+        ulong* nout = (ulong*)@out;
         for(uint i = outlen - 1; i >= 0; i--)
         {
-            @out[i] = @in & 0xff;
+            nout[i] = @in & 0xff;
             @in = @in >> 8;
         }
     }
